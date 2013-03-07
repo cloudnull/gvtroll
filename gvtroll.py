@@ -50,7 +50,7 @@ def troller(args):
         try:
             for phoneNumber in args.n:
                 # Generate a message if one was not provided
-                if args.m is None:
+                if not args.m:
                     rm = True
                     args.m = mimic.main()
 
@@ -62,7 +62,7 @@ def troller(args):
                     time.sleep(1)
 
                 # Reset a random Message if we were using a Random Message
-                if rm is True:
+                if rm:
                     args.m = None
         except Exception, e:
             print e
