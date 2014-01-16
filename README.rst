@@ -12,7 +12,7 @@ General Overview
 
 This application will send messages using a Google Python Library. The messages will be delivered as SMS messages to a target number.
 
-The gvtroll.py script is based on the original work provided by Zack Feldstine. ``https://github.com/jrcloud``
+The gvtroll.py script is based on the original work provided by Zack Feldstein. ``https://github.com/jrcloud``
 
 
 Functions of the Application :
