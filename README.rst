@@ -1,4 +1,4 @@
-Googel Voice Messager
+Google Voice Messager
 #####################
 :date: 2012-02-26 16:22
 :tags: Google, Google Voice, SMS,
